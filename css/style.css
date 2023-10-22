@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid; */
+}
+:root {
+  /* --bg: #ecf5f4;  */ /*OLD COLOR*/
+  /* --button: #9ebbbd; */ /*OLD COLOR*/
+  --bg: #181e3f;
+  --slider-bg: #ecf5f4;
+  --button: #181e3f;
+  --text: white;
+}
+/* ============================== Header Section ==================================== */
+.navbar {
+  background-color: var(--bg) ;
+}
+.navbar button {
+  background-color: transparent;
+}
+.navbar select,
+span {
+  color: var(--text);
+}
+.navbar i {
+  color: var(--text);
+}
+
+.logo {
+  width: 50px;
+}
+.headphone {
+  font-size: 35px;
+}
+.menubtn {
+  background-color: var(--button);
+  border: 0;
+}
+.custom-select:focus {
+  box-shadow: none;
+}
+#MENU {
+  top: 80px !important;
+}
+
+/* ============================== Slider Section ==================================== */
+.slide-background {
+  background-color: var(--slider-bg);
+}
+.slidebutton {
+  color: #00d9ff;
+}
+
+/* ============================== Services Section ==================================== */
+.services {
+  text-align: center;
+}
+.services i {
+  font-size: 65px !important;
+}
+.card-title {
+  font-weight: 600;
+  font-size: 19px !important;
+}
+.custom-scrollbar {
+  max-height: 540px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+
+/* .Follow img{
+    height: 50vh;
+    width: 200px;
+    margin-right: 20px;
+} */
+
+/* ==============================Footer Section ==================================== */
+.footer {
+  background-color: var(--bg);
+}
+
+.footericons {
+  list-style: none;
+}
+.footericons li a {
+  color: var(--text);
+  font-size: 30px;
+}
+.copyright {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: bold;
+}
+.terms li {
+  list-style: none;
+}
+.terms li a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+/* .fixed-anchor-button {
+  z-index: 3;
+  color: var(--button);
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+} */
+
+.topicon {
+  color: #afeaf5;
+}
+/* ==============================login Section ==================================== */
+.login-main {
+  background: url(../images/loging/login4.jpg) no-repeat;
+  background-size: cover;
+}
+
+.login-trp {
+  filter: opacity(30%);
+}
